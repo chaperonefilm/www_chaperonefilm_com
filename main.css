@@ -1,0 +1,14 @@
+p, label, div, a, li {
+    font-family: 'Muli', sans-serif;
+}
+.callout-text {
+    font-family: 'Tangerine', cursive;
+}
+.inverse-section {
+    background-color: #333333;
+    color: white;
+}
+.content {
+    padding-left: 10%;
+    padding-right: 10%;
+}

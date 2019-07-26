@@ -5,18 +5,11 @@
     <title>{{ page.title }} | CHAPERONE</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
   </head>
   <body>
-<style>
-    .callout-text {
-        font-family: 'Tangerine', cursive;
-    }
-    .inverse-section {
-        background-color: #333333;
-        color: white;
-    }
-</style>
-<p class="container-fluid">
+    <div class="container-fluid content">
       <div class="float-right">
         <a href="http://instagram.com/chaperone.lifestyle" target="_blank">Insta</a>
         <a href="https://www.facebook.com/chaperone.no/" target="_blank">Face</a>
@@ -25,7 +18,9 @@
         <a href="mailto:post@chaperone.no">post@chaperone.no</a>
         <a href="tel:+4798027920">+4798027920</a>
     </div>
+    </div>
     <hr/>
+    <div class="container-fluid content">
     <div class="row" style="align-items: center">
         <div class="col-sm">
             <div class="company_name">CHAPERONE</div>
@@ -39,12 +34,14 @@
             <a href="/contact">Contact</a>
         </div>
     </div>
+    </div>
 
     {{ content }}
 
-    <div>post@chaperone.no</div>
-    <div>+4798027920</div>
-    <div>©2018 BY CHAPERONE</div>
+    <div class="container-fluid content">
+        <div>post@chaperone.no</div>
+        <div>+4798027920</div>
+        <div>©2018 BY CHAPERONE</div>
 
     </div>
   </body>
