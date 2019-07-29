@@ -7,8 +7,40 @@ p, label, div, a, li {
 .inverse-section {
     background-color: #333333;
     color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+div.inverse-section h1 {
+    font-size: 3rem;
 }
 .content {
     padding-left: 10%;
     padding-right: 10%;
+}
+@media (min-width: 1000px) {
+    div.inverse-section h1 {
+        font-size: 4rem;
+    }
+    .content {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+@media (min-width: 1250px) {
+    div.inverse-section h1 {
+        font-size: 5rem;
+    }
+}
+
+a {
+    color: black;
+}
+
+.company-name {
+    font-size: 1.5rem;
+}
+
+.icons img {
+    height: 1rem;
+    padding-left: 0.5rem;
 }
