@@ -9,6 +9,7 @@ p, label, div, a, li {
     color: white;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 div.inverse-section h1 {
     font-size: 3rem;

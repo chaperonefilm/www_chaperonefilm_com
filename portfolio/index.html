@@ -3,6 +3,24 @@ layout: default
 title: Portfolio
 ---
 <div class="container-fluid content">
+
+{% for portfolio in site.portfolio %}
+<div class="row">
+    <div class="col-sm-6">
+        <h3>{{ portfolio.title }}</h3>
+        <p>{{ portfolio.content }}</p>
+        <p>Photo/editing: {{ portfolio.photo }}</p>
+    </div>
+    <div class="col-sm-6">
+        <iframe height="100%" width="100%" allowfullscreen="" 
+            frameborder="0" title="External YouTube" 
+            aria-label="External YouTube" 
+            src="//www.youtube.com/embed/{{ portfolio.youtube }}?wmode=transparent&amp;autoplay=1&amp;theme=dark&amp;controls=1&amp;autohide=0&amp;loop=0&amp;showinfo=0&amp;rel=0&amp;playlist=false&amp;enablejsapi=0"></iframe>
+    </div>
+
+</div>
+{% endfor %}
+
 WEDDING IN THAILAND
 This client went to Thailand with a group of friends and wanted to make the moment last forever. Pictures say a thousand words. But a movie can make you cry.
 
