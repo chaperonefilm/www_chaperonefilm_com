@@ -12,45 +12,20 @@ title: Portfolio
         <p>Photo/editing: {{ portfolio.photo }}</p>
     </div>
     <div class="col-sm-6">
+        {% if portfolio.youtube %}
         <iframe height="100%" width="100%" allowfullscreen="" 
             frameborder="0" title="External YouTube" 
             aria-label="External YouTube" 
             src="//www.youtube.com/embed/{{ portfolio.youtube }}?wmode=transparent&amp;autoplay=1&amp;theme=dark&amp;controls=1&amp;autohide=0&amp;loop=0&amp;showinfo=0&amp;rel=0&amp;playlist=false&amp;enablejsapi=0"></iframe>
+        {% else if portfolio.vimeo %}
+        <iframe height="100%" width="100%" allowfullscreen="" 
+            frameborder="0" title="External Vimeo" 
+            aria-label="External Vimeo" 
+            src="//player.vimeo.com/video/{{ portfolio.vimeo }}?autoplay=false&amp;loop=false&amp;byline=false&amp;portrait=false&amp;title=false"></iframe>
+        {% endif %}
     </div>
 
 </div>
 {% endfor %}
-
-WEDDING IN THAILAND
-This client went to Thailand with a group of friends and wanted to make the moment last forever. Pictures say a thousand words. But a movie can make you cry.
-
-Photo/editing: Sander Eriksen
-
-
-A NIGHT IN TOKYO
-To visit Tokyo is an immersing visual experience. We planned and captured the visit. So that the impressions could last longer than one night.
-
-Photo/editing: Sander Eriksen
-
-BALLOON OVER TRAKAI CASTLE, LITHUANIA
-To see Trakai Castle in Lithuania from a helium balloon is truly a one of a kind experience. We organized the trip but chose to not go in the balloon. Instead we captured it from the ground and with a drone.
-
-A JOURNEY THROUGH ICELAND
-This client took a trip around Iceland on Highway 1. The trip was extreme and was captured for the client forever.
-
-Photo/editing: Sander Eriksen
-
-NORWEGIAN WEDDING
-A wedding is the perfect story. Grand sets, amazing costumes, smiles and is love all around us. And a happy ending. Pictures are good, but a movie tell the story better.
-
-Photo/editing: Chaperone
-
-NICARAGUA
-Going to Nicaragua? Why not. It's your life. This client went for an unforgettable trip in his own way. And here it is: captured forever.
-
-Photo/editing: Sander Eriksen
-
-A JOURNEY THROUGH PORTUGAL
-From south to north, Portugal is an amazing country. Starting in the North and ending up seeing the sunset at Sagres - "The End Of The World"
 
 </div>
