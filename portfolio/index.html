@@ -2,10 +2,12 @@
 layout: default
 title: Portfolio
 ---
+<div class="container-fluid content inverse-section">
+ <h1 class="callout-text">Portfolio</h1>
+ </div>
 <div class="container-fluid content">
-
 {% for portfolio in site.portfolio %}
-<div class="row">
+<div class="row" style="margin-top: 3rem; margin-bottom: 6rem;">
     <div class="col-sm-6">
         <h3>{{ portfolio.title }}</h3>
         <p>{{ portfolio.content }}</p>
@@ -16,7 +18,7 @@ title: Portfolio
         <iframe height="100%" width="100%" allowfullscreen="" 
             frameborder="0" title="External YouTube" 
             aria-label="External YouTube" 
-            src="//www.youtube.com/embed/{{ portfolio.youtube }}?wmode=transparent&amp;autoplay=1&amp;theme=dark&amp;controls=1&amp;autohide=0&amp;loop=0&amp;showinfo=0&amp;rel=0&amp;playlist=false&amp;enablejsapi=0"></iframe>
+            src="//www.youtube.com/embed/{{ portfolio.youtube }}?wmode=transparent&amp;autoplay=0&amp;theme=dark&amp;controls=1&amp;autohide=0&amp;loop=0&amp;showinfo=0&amp;rel=0&amp;playlist=false&amp;enablejsapi=0"></iframe>
         {% else if portfolio.vimeo %}
         <iframe height="100%" width="100%" allowfullscreen="" 
             frameborder="0" title="External Vimeo" 

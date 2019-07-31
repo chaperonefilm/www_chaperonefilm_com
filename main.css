@@ -45,3 +45,9 @@ a {
     height: 1rem;
     padding-left: 0.5rem;
 }
+.menu a {
+    padding-left: 1rem;
+}
+.menu a:first-child {
+    padding-left: 0;
+}
