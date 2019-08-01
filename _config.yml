@@ -1,2 +1,5 @@
 collections:
-    - portfolio
+    blogposts:
+        output: true
+        permalink: /posts/:name
+    portfolio:
