@@ -2,12 +2,12 @@
 layout: default
 title: Contact
 ---
-<div class="container-fluid content inverse-section">
+<div class="container-fluid column section-header">
     <h1 class="callout-text">Blog</h1>
  </div>
 
  {% for post in site.blogposts %}
- <div class="container-fluid content">
+ <div class="container-fluid column content">
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p>{{ post.excerpt }}</p>
  </div>

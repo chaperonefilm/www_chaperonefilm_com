@@ -2,12 +2,12 @@
 layout: default
 title: Portfolio
 ---
-<div class="container-fluid content inverse-section">
+<div class="container-fluid column section-header">
  <h1 class="callout-text">Portfolio</h1>
  </div>
-<div class="container-fluid content">
 {% for portfolio in site.portfolio %}
-<div class="row" style="margin-top: 3rem; margin-bottom: 4rem;">
+<div class="container-fluid content column {% cycle '', 'grey-section' %}">
+<div class="row">
     <div class="col-sm-6">
         <h3>{{ portfolio.title }}</h3>
         <p>{{ portfolio.content }}</p>
@@ -28,6 +28,6 @@ title: Portfolio
     </div>
 
 </div>
+</div>
 {% endfor %}
 
-</div>
