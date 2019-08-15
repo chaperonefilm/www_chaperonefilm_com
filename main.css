@@ -82,7 +82,7 @@ a {
 }
 
 .mobile-menu a {
-    padding-left: 1rem;
+    padding-left: 0.5rem;
 }
 .mobile-menu a:first-child {
     padding-left: 0;
