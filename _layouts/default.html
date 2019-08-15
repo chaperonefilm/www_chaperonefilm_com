@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-    <link href="/main.css?v=17" rel="stylesheet">
+    <link href="/main.css?v=19" rel="stylesheet">
   </head>
   <body>
     <div class="container-fluid column" style="margin-top: 1rem;">
@@ -29,7 +29,7 @@
             <div class="company-name">CHAPERONE</div>
             <div>LIFESTYLE MOVIES AND EXPERIENCES</div>
         </div>
-        <div class="col-md-auto menu">
+        <div class="col-md-auto menu d-none-xs d-none d-md-block">
             <a href="/">Home</a>
             <a href="/blog">Blog</a>
             <a href="/portfolio">Portfolio</a>
@@ -37,6 +37,14 @@
             <a href="/contact">Contact</a>
         </div>
     </div>
+    </div>
+
+    <div class="container-fluid column grey-section mobile-menu d-md-none">
+        <a href="/">Home</a>
+        <a href="/blog">Blog</a>
+        <a href="/portfolio">Portfolio</a>
+        <a href="/faq">Faq</a>
+        <a href="/contact">Contact</a>
     </div>
 
     {{ content }}

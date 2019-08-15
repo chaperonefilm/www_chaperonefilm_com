@@ -73,3 +73,17 @@ a {
 .menu a:first-child {
     padding-left: 0;
 }
+
+.mobile-menu {
+    margin-bottom: -0.5rem;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.mobile-menu a {
+    padding-left: 1rem;
+}
+.mobile-menu a:first-child {
+    padding-left: 0;
+}
