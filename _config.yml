@@ -3,3 +3,4 @@ collections:
         output: true
         permalink: /posts/:name
     portfolio:
+    employees:
